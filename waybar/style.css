@@ -1,0 +1,79 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Ubuntu Mono";
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+#window {
+    font-weight: bold;
+    font-family: "Ubuntu Mono";
+}
+
+#workspaces button {
+    padding: 0 4px;
+    background: transparent;
+    color: white;
+    /*border-top: 2px solid transparent;*/
+}
+
+#workspaces button.focused {
+    color: #192a3a;
+    /*border-top: 2px solid #192a3a;*/
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#clock, #battery, #temperature, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode, #custom-weather {
+    padding: 0 4px;
+    margin: 0 2px;
+    color: white;
+    background: transparent;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+}
+
+#custom-spotify {
+    color: rgb(102, 220, 105);
+}
+
+#custom-weather {
+    padding-top: 3px;
+}
+
+#tray {
+}
+
